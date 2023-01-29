@@ -13,13 +13,13 @@ github_username: popocreator
 theme: minima
 plugins:
   - jekyll-feed
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+  - gemfiles/
+  #   - Gemfile
+  #   - Gemfile.lock
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
